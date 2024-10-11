@@ -1,8 +1,24 @@
 Clone a repository in console:
-  - Go to your repository and copy its url to the clipboard
-  - In a console, change to directory where you want the cloned repository
-  - >git clone https://github.com/Karoly-Git/learning-git
+  - Go to your repository and copy its URL to the clipboard.
+  - In a console, change to the directory where you want to clone the repository.
+  - Run the following command to clone the repository:
+      git clone https://github.com/Karoly-Git/learning-git
 
 Make a new branch:
-  - Change directory to the cloned repository and make a new branch
-  - >git checkout -b update_description
+  - Change to the cloned repository directory:
+      cd learning-git
+  - Create and switch to a new branch:
+      git checkout -b update_description
+  - Make changes in the repository.
+
+Committing and pushing changes:
+  - Check the status of your changes:
+      git status
+  - Stage all changes:
+      git add .
+  - Verify what has been staged:
+      git status
+  - Commit the changes with a message:
+      git commit -m "Added new description about how to make a new branch"
+  - Push the new branch to the remote repository:
+      git push --set-upstream origin update_description
