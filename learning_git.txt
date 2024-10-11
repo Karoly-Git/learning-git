@@ -1,4 +1,8 @@
 Clone a repository in console:
   - Go to your repository and copy its url to the clipboard
   - In a console, change to directory where you want the cloned repository
-  - git clone https://github.com/Karoly-Git/learning-git 
+  - >git clone https://github.com/Karoly-Git/learning-git
+
+Make a new branch:
+  - Change directory to the cloned repository and make a new branch
+  - >git checkout -b update_description
