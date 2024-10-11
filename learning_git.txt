@@ -1,0 +1,4 @@
+Clone a repository in console:
+  - Go to your repository and copy its url to the clipboard
+  - In a console, change to directory where you want the cloned repository
+  - git clone https://github.com/Karoly-Git/learning-git 
